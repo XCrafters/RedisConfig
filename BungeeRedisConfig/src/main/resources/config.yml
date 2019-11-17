@@ -1,0 +1,7 @@
+config:
+  redis:
+    host: ""
+    port: 6379
+    pass: ""
+    base: 0
+  export-path: "./"

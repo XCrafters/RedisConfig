@@ -1,0 +1,5 @@
+name: ${project.artifactId}
+main: ${plugin.main}.${project.artifactId}Plugin
+author: defabricated
+version: ${project.version}
+depend: [BungeeDatabaseAPI]

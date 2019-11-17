@@ -1,0 +1,13 @@
+name: ${project.artifactId}
+main: ${plugin.main}.${project.artifactId}Plugin
+author: defabricated
+version: ${project.version}
+depend: [SpigotDatabaseAPI]
+commands:
+  config:
+    permission: redisconfig.config
+    description: Komenda do zarzadzania konfiguracjami.
+permissions:
+  redisconfig.config:
+    default: op
+    description: Dostep do komendy /config.
